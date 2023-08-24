@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "EB Garamond", serif;
+   
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    max-width: 100vw;
+    max-height: 20vh;
+    background-color: red;
+  
+
+}
+nav, a{
+    padding: 5px 10px;
+    list-style: none;
+    text-decoration: none;
+    color:blanchedalmond;
+    font-size: 1rem;
+}
+section{
+    padding: 0 20px;
+    background-color: salmon;
+}
