@@ -62,8 +62,8 @@ h2 {
     line-height: 1.5;
 }
 figure {
-    width: 200px;
-    height: 200px;
+    max-width: 80vw;
+    height:auto;
     margin: 10px 5px;
     background-color: #dde6ed;
     background-image: linear-gradient(
@@ -72,7 +72,7 @@ figure {
         #183d3d 46%,
         #040d12 100%
     );
-    border-radius: 20px;
+    border-radius: 10px;
     border: 3px solid goldenrod;
     text-align: center;
     padding-top: 15px;
@@ -85,9 +85,10 @@ figure {
     border: 5px solid #d4af37;
     -moz-box-shadow: 15px 15px 6px 2px rgba(0, 0, 0, 0.75);
     box-shadow: 15px 15px 6px 2px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
 }
 
-#yo:hover{
+#yo:hover {
     border: 5px solid #c07f00;
 }
 #inicio {
@@ -96,7 +97,7 @@ figure {
 
 img {
     max-width: 98%;
-    border: 3px solid gray;
+    border: 3px solid #61605e;
     flex-basis: 250px;
 }
 
@@ -113,14 +114,43 @@ img {
     text-align: center;
 }
 
-footer {
-    background-color: #040d12;
-}
-
 .section-contacto {
     background-image: url("./img/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
     opacity: 0.5;
+}
+.contenedor-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor-certificaciones {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    justify-content: center;
+}
+
+footer {
+    background-color: #040d12;
+}
+
+@media screen and (max-width: 1200px) {
+    .proyecto-logo {
+        max-width: 80vw;
+        max-height: 100vh;
+        margin: 10px auto;
+    }
+    .proyecto-logo, img{
+        max-width: 100%;
+        max-height: 100%;
+        border: 3px solid grey;
+        
+}
+figure{
+    background-color: #040d12;
+}
 }
