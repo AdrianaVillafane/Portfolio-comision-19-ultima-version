@@ -63,19 +63,16 @@ h2 {
 }
 figure {
     max-width: 80vw;
-    height:auto;
+    height: auto;
     margin: 10px 5px;
-    background-color: #dde6ed;
-    background-image: linear-gradient(
-        43deg,
-        #5c8374 0%,
-        #183d3d 46%,
-        #040d12 100%
-    );
+    background-color: #040d12;
     border-radius: 10px;
     border: 3px solid goldenrod;
     text-align: center;
     padding-top: 15px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 #yo {
@@ -83,8 +80,9 @@ figure {
     max-width: max-content;
     max-width: 25%;
     border: 5px solid #d4af37;
-    -moz-box-shadow: 15px 15px 6px 2px rgba(0, 0, 0, 0.75);
-    box-shadow: 15px 15px 6px 2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     margin-bottom: 20px;
 }
 
@@ -97,7 +95,6 @@ figure {
 
 img {
     max-width: 98%;
-    border: 3px solid #61605e;
     flex-basis: 250px;
 }
 
@@ -114,12 +111,13 @@ img {
     text-align: center;
 }
 
-.section-contacto {
+.contacto {
     background-image: url("./img/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
     opacity: 0.5;
+    color: #040d12;
 }
 .contenedor-proyectos {
     display: flex;
@@ -130,7 +128,8 @@ img {
 .contenedor-certificaciones {
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
+    background-color: #040d12;
+
     justify-content: center;
 }
 
@@ -143,14 +142,10 @@ footer {
         max-width: 80vw;
         max-height: 100vh;
         margin: 10px auto;
+        border: 2px solid #d4af37;
     }
-    .proyecto-logo, img{
-        max-width: 100%;
-        max-height: 100%;
-        border: 3px solid grey;
-        
-}
-figure{
-    background-color: #040d12;
-}
+
+    figure {
+        background-color: #040d12;
+    }
 }

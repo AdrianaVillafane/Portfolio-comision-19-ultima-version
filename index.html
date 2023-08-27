@@ -39,14 +39,16 @@
       <a href="#sobre-mi">Sobre mi</a>
       <a href="#certificaciones">Certificaciones</a>
       <a href="#proyactos">Proyectos</a>
-      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Contactame</a>
     </nav>
   </header>
   <main>
     <section class="presentacion">
       <div class="texto">
-        <a name="hola"><h3>¡Hola!</h3></a>
-          <p>" Soy Adriana Villafañe, una apasionada, autodidacta, con un ojo creativo y una pasión
+        <a name="hola">
+          <h3>¡Hola!</h3>
+        </a>
+        <p>" Soy Adriana Villafañe, una apasionada, autodidacta, con un ojo creativo y una pasión
           por la
           excelencia. A lo largo de mi vida, he trabajado en Salud lo que refleja mi habilidad para
           empatizar y
@@ -74,6 +76,7 @@
               Me encanta leer, ver series, y volverlas a ver.
               Me gusta estudiar, aprender cosas nuevas, y tener nuevos desafios"
             </p>
+
             <p>"Trabajé en el rubro de salud. Luego fui artesana por muchos años, aprendi a manipular el vidrio y a
               preparar mis propios colores, era todo un desafio lograr un color nuevo, y cuando lo lograba, el mayor de
               mis logros. Aprendi a crear nuevos diseños, para lograr un lugar reconocido por los clientes, y repetada
@@ -111,85 +114,78 @@
     </section>
 
     <section class="proyectos">
-
-      <a name="proyectos">
-        <h2>Mis Proyectos</h2>
-      </a>
-
       <div class="contenedor-proyectos">
 
-        <figure class="proyecto-logo">
-          <img src="./img/ada.png" alt="landing page">
-          <figcaption>Lading page</figcaption>
-        </figure>
+        <a name="proyectos">
+          <h2>Mis Proyectos</h2>
+        </a>
 
-        <figure class="proyecto-logo">
-          <img src="./img/utn.png" alt="landind page">
-          <figcaption>Lading page</figcaption>
-        </figure>
+        <div>
+          <figure class="proyecto-logo">
+            <img src="./img/ada.png" alt="landing page">
+            <figcaption>Lading page</figcaption>
+          </figure>
 
-        <figure class="proyecto-logo">
-          <img src="./img/ada-1.png" alt="portfolio">
-          <figcaption>Lading page</figcaption>
-        </figure>
+          <figure class="proyecto-logo">
+            <img src="./img/utn.png" alt="landind page">
+            <figcaption>Lading page</figcaption>
+          </figure>
 
+          <figure class="proyecto-logo">
+            <img src="./img/ada-1.png" alt="portfolio">
+            <figcaption>Lading page</figcaption>
+          </figure>
 
+        </div>
+      </div>
     </section>
 
 
-    <section class="section-contacto">
-      <h2 id="contacto">Contacto</h2>
-      <div class="contacto-contenedor">
-        <div class="contacto-redes">
-          <a name="contactame">
-            <h2 class="contacto-red">
-              Contactame
-            </h2>
-          </a>
-          <ul>
-            <li>
+    <section class="contacto">
+      <a name="contactame"></a>
+      <div class="contenedor-contacto">
+        <h2 id="contacto">Contactame</h2>
+        <div class="contacto-contenedor">
+          <div class="contacto-redes">
+           
+            
+              <div>
               <a href="https://twitter.com/">
                 <i class="fa-brands icono-contacto fa-twitter"></i><span>@tsade</span>
               </a>
-            </li>
-            <li>
               <a href="https://github.com/AdrianaVillafane">
                 > <i class="fa-brands icono-contacto fa-github-alt" </i><span>AdrianaVillafane</span>
               </a>
-            </li>
-            <li>
+              >
               <a href="mailto:tsade@live.com.ar">
                 <i class="fa-solid icono-contacto fa-envelope"></i><span>Adriana Villafañe</span>
               </a>
-            </li>
-            <li>
               <a href="https://www.linkedin.com/in/adriana-villafa%C3%B1e-b4b981255/">
                 <i class="fa-brands icono-contacto fa-linkedin-in"></i><span>AdrianaVillafane</span>
               </a>
-            </li>
-          </ul>
-        </div>
+            </div>
+          </div>
+          <div class="contacto-form">
+            <h2 class="contacto-red">
+              Escribime
+            </h2>
+            <form action="" class="form-contacto">
+              <label for="nombre-usuario" class="form-grupo">Nombre</label>
+              <input id="nombre-usuario" type="text" placeholder="tu nombre" required>
 
-        <div class="contacto-form">
-          <h2 class="contacto-red">
-            Escribime
-          </h2>
-          <form action="" class="form-contacto">
-            <label for="nombre-usuario" class="form-grupo">Nombre</label>
-            <input id="nombre-usuario" type="text" placeholder="tu nombre" required>
+              <label for="apellido-usuario" class="form-grupo">Apellido</label>
+              <input id="apellido-usuario" type="text" placeholder="tu apellido" required>
 
-            <label for="apellido-usuario" class="form-grupo">Apellido</label>
-            <input id="apellido-usuario" type="text" placeholder="tu apellido" required>
+              <label for="mail-usuario" class="form-grupo">E-mail</label>
+              <input id="mail-usuario" type="email" placeholder="tu email" required>
 
-            <label for="mail-usuario" class="form-grupo">E-mail</label>
-            <input id="mail-usuario" type="email" placeholder="tu email" required>
+              <label for="mensaje-usuario" class="form-grupo">Mensaje</label>
+              <textarea id="mensaje-usuario" placeholder="Escriba aca su mensaje" maxlength="280"></textarea>
 
-            <label for="mensaje-usuario" class="form-grupo">Mensaje</label>
-            <textarea id="mensaje-usuario" placeholder="Escriba aca su mensaje" maxlength="280"></textarea>
-
-            <label for="input-submit" class="form-grupo"></label>
-            <input id="input-submit" type="submit">
-          </form>
+              <label for="input-submit" class="form-grupo"></label>
+              <input id="input-submit" type="submit">
+            </form>
+          </div>
         </div>
       </div>
     </section>
