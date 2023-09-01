@@ -30,16 +30,23 @@
 
 <body>
   <header>
-    <nav>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-linkedin"></i>
-      <i class="fa-brands fa-discord"></i>
-      <i class="fa-brands icono-contacto fa-github-alt"></i>
-
-      <a href="#sobre__mi">Sobre mi</a>
-      <a href="#certificaciones">Certificaciones</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="#contactame">Contactame</a>
+    <nav class="nav">
+      <div class="nav__contenedor">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-discord"></i>
+        <i class="fa-brands icono-contacto fa-github-alt"></i>
+        <label for="menu" class="navlabel">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu" class="nav__input">
+        <div class="nav__menu">
+          <a href="#sobre__mi">Sobre mi</a>
+          <a href="#certificaciones">Certificaciones</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contactame">Contactame</a>
+        </div>
+      </div>
     </nav>
   </header>
   <main>
@@ -81,8 +88,9 @@
 
 
     <section class="certificaciones">
+      <h3 id="certificaciones">Certificaciones</h3>
       <div class="certificaciones__contenedor">
-        <h2 id="certificaciones">Certificaciones</h2>
+
         <div>
           <figure class="certificaciones__contenedor--logo">
             <img src="./img/inicio-frontend-ada.png" alt="certificacion ada">
@@ -106,35 +114,35 @@
     </section>
 
     <section class="proyectos">
-     
 
+      <h3 id="proyectos">Mis Proyectos</h3>
       <div class="proyectos__contenedor">
-        <h2 id="proyectos">Mis Proyectos</h2>
-      
-          <figure class="proyectos__contenedor--logo">
-            <img src="./img/ada.png" alt="landing page">
-            <figcaption>Lading page</figcaption>
-          </figure>
 
-          <figure class="proyectos__contenedor--logo">
-            <img src="./img/utn.png" alt="landind page">
-            <figcaption>Lading page</figcaption>
-          </figure>
 
-          <figure class="proyectos__contenedor--logo">
-            <img src="./img/ada-1.png" alt="portfolio">
-            <figcaption>Lading page</figcaption>
-          </figure>
+        <figure class="proyectos__contenedor--logo">
+          <img src="./img/ada.png" alt="landing page">
+          <figcaption>Lading page</figcaption>
+        </figure>
 
-        </div>
+        <figure class="proyectos__contenedor--logo">
+          <img src="./img/utn.png" alt="landind page">
+          <figcaption>Lading page</figcaption>
+        </figure>
+
+        <figure class="proyectos__contenedor--logo">
+          <img src="./img/ada-1.png" alt="portfolio">
+          <figcaption>Lading page</figcaption>
+        </figure>
+
+      </div>
       </div>
     </section>
 
 
     <section class="contacto">
-     
+
       <div class="contacto__contenedor">
-        <h2 id="contactame">Contactame</h2>
+        <h3 id="contactame">Contactame</h3>
         <div class="">
           <div class="contacto-redes">
 
@@ -156,9 +164,9 @@
             </div>
           </div>
           <div class="contacto__formulario">
-            <h2 class="contacto-red">
+            <h3 class="contacto-red">
               Escribime
-            </h2>
+            </h3>
             <form action="" class="form-contacto">
               <label for="nombre-usuario" class="form-grupo">Nombre</label>
               <input id="nombre-usuario" type="text" placeholder="tu nombre" required>
