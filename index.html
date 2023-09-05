@@ -26,6 +26,7 @@
   <link rel="shortcut icon" href="./img/icons8-magia-16.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
@@ -33,20 +34,18 @@
 
 <body>
   <header>
-    <nav class="nav">
-      <div class="nav__contenedor">
+    <nav class="nav__bar">
 
-        <label for="menu" class="navlabel">
-          <i class="fa-solid fa-bars"></i>
-        </label>
-        <input type="checkbox" id="menu" class="nav__input">
-        <div class="nav__menu">
-          <a href="#sobre__mi">Sobre mi</a>
-          <a href="#certificaciones">Certificaciones</a>
-          <a href="#proyectos">Proyectos</a>
-          <a href="#contactame">Contactame</a>
-        </div>
-      </div>
+      <input class="checkbox" type="checkbox">
+      <i class="fi fi-br-menu-burger nav__icons"></i>
+      <i class="fi fi-br-cross nav__icons"></i>
+      <ul class="nav__menu">
+        <li><a href="#sobre__mi">Sobre mi</a></li>
+        <li><a href="#certificaciones">Certificaciones</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contactame">Contactame</a></li>
+      </ul>
+
     </nav>
   </header>
   <main>
@@ -142,26 +141,7 @@
 
 
     <section class="contacto">
-      <fieldset>
 
-        <legend id="contactame">Contactame</legend>
-
-        <div class="contacto__redes">
-
-
-
-          <a href="https://github.com/AdrianaVillafane">
-            <i class="fa-brands icono__contacto fa-github-alt">AdrianaVillafane</i>
-          </a>
-
-          <a href="mailto:tsade@live.com.ar">
-            <i class="fa-solid icono__contacto fa-envelope">Adriana Villafañe</i>
-          </a>
-          <a href="https://www.linkedin.com/in/adriana-villafa%C3%B1e-b4b981255/">
-            <i class="fa-brands icono__contacto fa-linkedin-in">Adriana Villafañe</i>
-          </a>
-        </div>
-      </fieldset>
       <fieldset>
         <legend class="contacto__red">
           Escribime
@@ -199,7 +179,7 @@
       <a href="https://github.com/AdrianaVillafane">
         <i class="fa-brands icono-contacto fa-github-alt"></i>
       </a>
-     
+
       <a href="https://www.linkedin.com/in/adriana-villafa%C3%B1e-b4b981255/">
         <i class="fa-brands icono-contacto fa-linkedin-in"></i>
       </a>
@@ -220,6 +200,7 @@
         <p>"Yo nunca miro atrás, cariño. Me distrae del ahora..."
         </p>
         <p class="autor">Adriana</p>
+        <i class="fi fi-ss-heart"></i>
 
       </div>
   </footer>
