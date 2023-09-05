@@ -35,10 +35,7 @@
   <header>
     <nav class="nav">
       <div class="nav__contenedor">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-discord"></i>
-        <i class="fa-brands icono-contacto fa-github-alt"></i>
+
         <label for="menu" class="navlabel">
           <i class="fa-solid fa-bars"></i>
         </label>
@@ -93,7 +90,7 @@
 
 
     <section class="certificaciones">
-      <h3 id="certificaciones">Certificaciones</h3>
+      <h3 id="certificaciones" class="animate__animated animate__bounce my-elemet">Certificaciones</h3>
       <div class="certificaciones__contenedor">
 
         <div>
@@ -120,7 +117,7 @@
 
     <section class="proyectos">
 
-      <h3 id="proyectos">Mis Proyectos</h3>
+      <h3 id="proyectos" class="animate__animated animate__bounce my-elemet">Mis Proyectos</h3>
       <div class="proyectos__contenedor">
 
 
@@ -140,57 +137,53 @@
         </figure>
 
       </div>
-      </div>
+
     </section>
 
 
     <section class="contacto">
+      <fieldset>
 
-      <div class="contacto__contenedor">
-        <h3 id="contactame">Contactame</h3>
-        <div class="">
-          <div class="contacto__redes">
+        <legend id="contactame">Contactame</legend>
+
+        <div class="contacto__redes">
 
 
-            <div>
-              <a href="https://twitter.com/">
-                <i class="fa-brands icono-contacto fa-twitter">@tsade</i>
-              </a>
-              <a href="https://github.com/AdrianaVillafane">
-                 <i class="fa-brands icono-contacto fa-github-alt">AdrianaVillafane</i>
-              </a>
-              
-              <a href="mailto:tsade@live.com.ar">
-                <i class="fa-solid icono-contacto fa-envelope">Adriana Villafañe</i>
-              </a>
-              <a href="https://www.linkedin.com/in/adriana-villafa%C3%B1e-b4b981255/">
-                <i class="fa-brands icono-contacto fa-linkedin-in">Adriana Villafañe</i>
-              </a>
-            </div>
-          </div>
-          <div class="contacto__formulario">
-            <h3 class="contacto__red">
-              Escribime
-            </h3>
-            <form action="" class="form-contacto">
-              <label for="nombre-usuario" class="form-grupo">Nombre</label>
-              <input id="nombre-usuario" type="text" placeholder="tu nombre" required>
 
-              <label for="apellido-usuario" class="form-grupo">Apellido</label>
-              <input id="apellido-usuario" type="text" placeholder="tu apellido" required>
+          <a href="https://github.com/AdrianaVillafane">
+            <i class="fa-brands icono__contacto fa-github-alt">AdrianaVillafane</i>
+          </a>
 
-              <label for="mail-usuario" class="form-grupo">E-mail</label>
-              <input id="mail-usuario" type="email" placeholder="tu email" required>
-
-              <label for="mensaje-usuario" class="form-grupo">Mensaje</label>
-              <textarea id="mensaje-usuario" placeholder="Escriba aca su mensaje" maxlength="280"></textarea>
-
-              <label for="input-submit" class="form-grupo"></label>
-              <input id="input-submit" type="submit">
-            </form>
-          </div>
+          <a href="mailto:tsade@live.com.ar">
+            <i class="fa-solid icono__contacto fa-envelope">Adriana Villafañe</i>
+          </a>
+          <a href="https://www.linkedin.com/in/adriana-villafa%C3%B1e-b4b981255/">
+            <i class="fa-brands icono__contacto fa-linkedin-in">Adriana Villafañe</i>
+          </a>
         </div>
-      </div>
+      </fieldset>
+      <fieldset>
+        <legend class="contacto__red">
+          Escribime
+        </legend>
+        <form action="" class="form-contacto">
+          <label for="nombre-usuario" class="form-grupo">Nombre</label>
+          <input id="nombre-usuario" type="text" placeholder="tu nombre" required>
+
+          <label for="apellido-usuario" class="form-grupo">Apellido</label>
+          <input id="apellido-usuario" type="text" placeholder="tu apellido" required>
+
+          <label for="mail-usuario" class="form-grupo">E-mail</label>
+          <input id="mail-usuario" type="email" placeholder="tu email" required>
+
+          <label for="mensaje-usuario" class="form-grupo">Mensaje</label>
+          <textarea id="mensaje-usuario" placeholder="Escriba aca su mensaje" maxlength="280"></textarea>
+
+          <label for="input-submit" class="form-grupo"></label>
+          <input id="input__submit" type="submit">
+        </form>
+      </fieldset>
+
     </section>
 
   </main>
@@ -203,20 +196,25 @@
     </ul>
 
     <div class="redes">
-      <a href="https://twitter.com/">
-        <i class="fa-brands icono-contacto fa-twitter"></i>
-      </a>
       <a href="https://github.com/AdrianaVillafane">
         <i class="fa-brands icono-contacto fa-github-alt"></i>
       </a>
-      <a href="mailto:tsade@live.com.ar">
-        <i class="fa-solid icono-contacto fa-envelope"></i>
-      </a>
+     
       <a href="https://www.linkedin.com/in/adriana-villafa%C3%B1e-b4b981255/">
         <i class="fa-brands icono-contacto fa-linkedin-in"></i>
       </a>
     </div>
 
+
+    </div>
+    <a href="#">
+      <figure class="footer__imagen">
+        <img src="./img/pngegg3.png" class="notas__jigglypuff" alt="notas musicales">
+        <img src="./img/pngegg2.png" alt="jigglypuff cantando">
+
+
+      </figure>
+    </a>
     <div>
       <div class="creditos">
         <p>"Yo nunca miro atrás, cariño. Me distrae del ahora..."
@@ -224,8 +222,6 @@
         <p class="autor">Adriana</p>
 
       </div>
-    </div>
-    <a href="#"> <i class="fa-solid fa-circle-up"></i> </a>
   </footer>
   <script src="https://kit.fontawesome.com/bcc472557c.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
