@@ -282,27 +282,36 @@ a:hover {
             #27374d 46%,
             #526d82 100%
         );
-        position: relative;
     }
-    .footer__menu  li a {
+    .footer__menu {
+        padding: 30px auto;
+        font-size: 22px;
+    }
+    .footer__menu li a {
         color: #dde6ed;
     }
-    .footer__redes i {
-        color: #dde6ed;
-        padding: 30px;
-    }
-    .footer__imagen {
-        text-align: center;
-        position: relative;
-        background-color: aqua;
-    }
-    #yo{
-        position: absolute;
-      
-        top:5px
-
+    .footer__menu li a:hover {
+        background-color:  #526d82;
+        border-radius: 5px;
     }
 }
+.footer__redes i {
+    color: #dde6ed;
+    padding: 20px;
+}
+.footer__redes:hover{
+    background-color: #526d82;
+}
+.footer__imagen {
+    text-align: center;
+    position: relative;
+}
+#yo {
+    position: absolute;
+
+    top: 5px;
+}
+
 @media (min-width: 427px) {
     textarea {
         width: 90%;
