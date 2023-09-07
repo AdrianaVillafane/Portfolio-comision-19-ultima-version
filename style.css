@@ -299,7 +299,7 @@ a:hover {
     color: #dde6ed;
     padding: 20px;
 }
-.footer__redes:hover{
+.footer__redes i:hover{
     background-color: #526d82;
 }
 .footer__imagen {
@@ -308,7 +308,6 @@ a:hover {
 }
 #yo {
     position: absolute;
-
     top: 5px;
 }
 
