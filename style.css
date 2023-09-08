@@ -292,9 +292,10 @@ a:hover {
         border: 1px solid goldenrod;
     }
     textarea {
-        width: 250px;
+        width: 280px;
         height: 50px;
         border-radius: 5px;
+
     }
 
     footer {
