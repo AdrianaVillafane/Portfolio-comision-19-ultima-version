@@ -118,50 +118,24 @@ a:hover {
         left: calc(100% - 10%);
     }
 }
+.presentacion__gato {
+    height: 36%;
+    margin: 10px;
+   width: 95%;
+   position: relative;
+   background-color: #0680dd;
+}
 #gato {
     width: 15%;
     height: auto;
     position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(-60, 0);
+    top: 5%;
+    left: 0;
+    transform: translate(0, 0%);
     animation: desplazamiento 5s linear infinite alternate-reverse;
 }
-/*  animación */ /*
-@keyframes desplazar {
-    0% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
-.presentacion__toys {
-    width: 50px;
-    animation: desplazar 4s ease-in-out infinite;
-    display: inline-block;
-}
 
-@keyframes desplazar {
-    0% {
-        transform: translateX(100%);
-    }
-    50% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(100%);
-    }
-}*/
 
-.presentacion__juguete {
-    position: relative;
-    height: 25%;
-    margin: 10px;
-}
 
 @media screen and (width >= 300px) {
     /*secciones*/
@@ -187,12 +161,14 @@ a:hover {
         width: 100%;
         margin-top: 50px;
         line-height: 1.5;
-        z-index: -5;
+        z-index: -1;
     }
 
     h3 {
         font-size: 22px;
         color: #dde6ed;
+        margin-top:30px;
+
     }
     /*certificaciones*/
     .certificaciones {
@@ -200,11 +176,12 @@ a:hover {
         height: auto;
         text-align: center;
         color: #dde6ed;
+       
     }
     /*contenedor diplomas*/
     .certificaciones div {
-        margin: 20px auto;
-        width: 90%;
+        margin-top:  50px;
+        width: 100%;
     }
     .certificaciones__contenedor {
         display: flex;
@@ -402,15 +379,9 @@ a:hover {
     .presentacion__texto {
         font-size: 18px;
     }
-    .presentacion__juguete{
-        height: 15%;
-        width: 100%;
-        margin: 10px;
-    }
-    .presentacion__gato {
-        height: 20%;
-        margin: 10px;
-       width: 100%;
-       position: relative;
-}
+   .certificaciones div h3{
+   margin-top: 50px;
+    background-color: aquamarine;
+   }
+   
 }
