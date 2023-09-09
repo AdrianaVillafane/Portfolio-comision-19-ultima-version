@@ -65,13 +65,14 @@ body {
     z-index: -1;
     right: 0;
     transition: 300ms;
+    background-color: #0680dd;
 }
 
 .nav__menu li a {
     color: inherit;
 
     display: block;
-    padding: 10px 12px;
+    padding: 5px 8px;
 }
 .nav__menu li a:hover {
     background-color: transparent;
@@ -92,22 +93,56 @@ a:hover {
     color: #dde6ed;
     transform: scale(1.3);
 }
+.presentacion__juguete {
+    position: relative;
+    height: 15%;
+    margin: 10px;
+    background-color: #0680dd;
+}
 
-/*  animación */
-@keyframes desplazar {
+#bola-de-hilo {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    animation: desplazamiento 4s linear infinite alternate;
+}
+
+@keyframes desplazamiento {
     0% {
-        transform: translateX(0); /* izq */
-    }
-    50% {
-        transform: translateX(250px); /*  mitad derecha */
+        left: 0;
     }
     100% {
-        transform: translateX(0); /* regresa */
+        left: calc(100% - 10%);
+    }
+}
+#gato {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-60, 0);
+    animation: desplazamiento 5s linear infinite alternate-reverse;
+}
+/*  animación */ /*
+@keyframes desplazar {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
     }
 }
 .presentacion__toys {
     width: 50px;
     animation: desplazar 4s ease-in-out infinite;
+    display: inline-block;
 }
 
 @keyframes desplazar {
@@ -120,11 +155,12 @@ a:hover {
     100% {
         transform: translateX(100%);
     }
-}
+}*/
 
-.presentacion__pets {
-    width: 100px;
-    animation: desplazar 5s ease-in-out infinite;
+.presentacion__juguete {
+    position: relative;
+    height: 25%;
+    margin: 10px;
 }
 
 @media screen and (width >= 300px) {
@@ -149,9 +185,9 @@ a:hover {
 
     .presentacion__texto {
         width: 100%;
-        margin: 30px 0;
-        margin: 10px;
+        margin-top: 50px;
         line-height: 1.5;
+        z-index: -5;
     }
 
     h3 {
@@ -284,7 +320,7 @@ a:hover {
         border: 1px solid goldenrod;
     }
     textarea {
-        width: 280px;
+        width: 98%;
         height: 50px;
         border-radius: 5px;
     }
@@ -340,21 +376,12 @@ a:hover {
 
 .pulso {
     width: 10%;
-   margin: 10px auto;
+    margin: 10px auto;
 }
-.pulso:hover{
+.pulso:hover {
     transform: scale(0.5);
-   
 }
-@media (min-width: 427px) {
-    textarea {
-        width: 90%;
-    }
 
-    .footer__imagen {
-        right: 95px;
-    }
-}
 @media (min-width: 560px) {
     .checkbox,
     .fi-br-cross,
@@ -370,4 +397,20 @@ a:hover {
     .nav__menu a {
         height: 46px;
     }
+}
+@media (min-width: 768px) {
+    .presentacion__texto {
+        font-size: 18px;
+    }
+    .presentacion__juguete{
+        height: 15%;
+        width: 100%;
+        margin: 10px;
+    }
+    .presentacion__gato {
+        height: 20%;
+        margin: 10px;
+       width: 100%;
+       position: relative;
+}
 }
