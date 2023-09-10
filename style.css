@@ -136,7 +136,6 @@ a:hover {
 }
 
 
-
 @media screen and (width >= 300px) {
     /*secciones*/
     /*presentacion*/
@@ -387,11 +386,11 @@ a:hover {
     .certificaciones{
         justify-content: center;
         align-items: center;
+        
     }
     .certificaciones div{
         width: 86%;
         height: 70%;
-        padding: 10px;
         text-align: center;
     }
    
@@ -409,4 +408,7 @@ a:hover {
     h3{
         font-size: 25px;
     }
+   .certificaciones{
+   margin: 10px auto;
+   }
 }
