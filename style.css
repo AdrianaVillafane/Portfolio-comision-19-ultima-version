@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +15,6 @@ body {
     );
     font-family: Arial;
     color: #dde6ed;
-
 }
 /*barra navegacion*/
 
@@ -30,7 +29,6 @@ body {
     padding: 10px 12px;
     position: relative;
     border: 2px solid goldenrod;
-   
 }
 .checkbox,
 .nav__icons {
@@ -103,7 +101,6 @@ a:hover {
     position: relative;
     height: 12vw;
     margin: 10px;
-    
 }
 
 #bola-de-hilo {
@@ -129,7 +126,6 @@ a:hover {
     width: 95%;
     position: relative;
     margin: 10px;
-    
 }
 #gato {
     width: 15%;
@@ -140,11 +136,10 @@ a:hover {
     transform: translate(0, 0%);
     animation: desplazamiento 5s linear infinite alternate-reverse;
 }
-@media screen and (width >= 300px) {
+@media  (min-width: 300px) {
     /*secciones*/
     /*presentacion*/
     /*animacion saludo*/
-    
 
     .presentacion {
         width: 100%;
@@ -157,7 +152,7 @@ a:hover {
         font-size: 16px;
     }
 
-   .presentacion__texto {
+    .presentacion__texto {
         width: 100%;
         margin-top: 50px;
         line-height: 1.5;
@@ -167,21 +162,21 @@ a:hover {
     h3 {
         font-size: 22px;
         color: #dde6ed;
-       
+        margin: 8px;
     }
 
-      /*certificaciones*/
-      .certificaciones {
+    /*certificaciones*/
+    .certificaciones {
         width: 100%;
         height: 100vw;
         text-align: center;
         color: #dde6ed;
-       flex-wrap: wrap;
-       margin-top: 250px;
-       margin-bottom: 500px;
+        flex-wrap: wrap;
+        margin-top: 250px;
+        margin-bottom: 500px;
     }
-      /*contenedor diplomas*/
-    
+    /*contenedor diplomas*/
+
     .certificaciones div {
         width: 100%;
     }
@@ -210,7 +205,6 @@ a:hover {
         height: 90%;
         border-radius: 20px;
         margin-top: 10px;
-       
     }
     img,
     figcaption {
@@ -360,13 +354,13 @@ a:hover {
 .pulso {
     width: 10%;
     margin: 10px auto;
-    border:none;
+    border: none;
 }
 .pulso:hover {
     transform: scale(0.5);
 }
 
-@media (min-width: 560px) {
+@media (min-width: 480px) and (max-width: 768px) {
     .checkbox,
     .fi-br-cross,
     .fi-br-menu-burger {
@@ -382,15 +376,58 @@ a:hover {
         height: 46px;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+    .checkbox,
+    .fi-br-cross,
+    .fi-br-menu-burger {
+        display: none;
+    }
+    .nav__menu {
+        top: 0;
+        z-index: 1;
+        width: unset;
+        display: flex;
+    }
+    .nav__menu a {
+        height: 46px;
+    }
+
     .presentacion__texto {
-        font-size: 18px;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 30px;
     }
     .certificaciones {
         padding-top: 20px;
+        margin-bottom: 30px;
     }
-   
-    #bola-de-hilo, #gato, .pulso img{
+
+    #bola-de-hilo,
+    #gato,
+    .pulso img {
         border: none;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .checkbox,
+    .fi-br-cross,
+    .fi-br-menu-burger {
+        display: none;
+    }
+    .nav__menu {
+        top: 0;
+        z-index: 1;
+        width: unset;
+        display: flex;
+    }
+    .nav__menu a {
+        height: 46px;
+    }
+    .certificaciones {
+        width: 70%;
+        margin: 10px auto;
+    }
+    #bola-de-hilo {
+        width: 10%;
     }
 }
