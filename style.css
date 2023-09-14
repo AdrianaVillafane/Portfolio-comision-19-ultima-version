@@ -381,13 +381,15 @@ a:hover {
 }
 @media screen and (width >= 768px) {
     .presentacion__texto {
-        font-size: 18px;
+        font-size: 20px;
     }
    
     .certificaciones__contenedor--logo{
-        width: 70%;
+        width: 65%;
         height: 65%;
+      
     }
+    
     #bola-de-hilo,
     #gato,
     .pulso img {
@@ -398,9 +400,42 @@ a:hover {
     }
     .proyectos__contenedor--logo{
         width: 70%;
-        height: 65%;
+        height: 64%;
     }
     #yo{
         width: 35%;
+    }
+}
+@media screen and (width >= 1024px){
+    .proyectos__contenedor--logo{
+        margin-top: 50px;
+    }
+    h3{
+        margin-top: 20px;
+    }
+    
+    .presentacion__texto{
+        font-size: 22px;
+        width: 98%;
+        height: 95%;
+    }
+    h3{
+        font-size: 25px;
+    }
+    #bola-de-hilo{
+        width: 5%;
+    }
+    .presentacion__juguete{
+        height: 20%;
+    }
+    #gato{
+        width: 8%;
+        height: auto;
+    }
+    .presentacion__gato{
+        height: 45%;
+    }
+    .certificaciones__contenedor{
+        background-color: violet;
     }
 }
