@@ -151,6 +151,7 @@ a:hover {
         color: #dde6ed;
         line-height: 1.3;
         font-size: 16px;
+        
     }
 
     .presentacion__texto {
@@ -159,6 +160,7 @@ a:hover {
         line-height: 1.5;
         z-index: -2;
         margin: 0 8px;
+      
     }
     h3 {
         font-size: 22px;
@@ -214,7 +216,6 @@ a:hover {
     }
 
     /*proyectos*/
-
 
     .proyectos {
         min-width: 100vw;
@@ -382,13 +383,24 @@ a:hover {
     .presentacion__texto {
         font-size: 18px;
     }
-    .certificaciones {
-        padding-top: 20px;
+   
+    .certificaciones__contenedor--logo{
+        width: 70%;
+        height: 65%;
     }
-
     #bola-de-hilo,
     #gato,
     .pulso img {
         border: none;
+    }
+    .nav__menu{
+        background-color: transparent;
+    }
+    .proyectos__contenedor--logo{
+        width: 70%;
+        height: 65%;
+    }
+    #yo{
+        width: 35%;
     }
 }
