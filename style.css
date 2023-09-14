@@ -64,6 +64,7 @@ body {
     z-index: -1;
     right: 0;
     transition: 300ms;
+    background-color: #1a2433;
 }
 
 .nav__menu li a {
@@ -154,9 +155,9 @@ a:hover {
 
     .presentacion__texto {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 85px;
         line-height: 1.5;
-        z-index: -1;
+        z-index: -2;
         margin: 0 8px;
     }
     h3 {
@@ -244,7 +245,7 @@ a:hover {
         align-items: center;
     }
 
-    .contacto {
+    #contacto {
         background-image: url(./img/fondo.jpg);
         background-repeat: no-repeat;
         background-size: cover;
