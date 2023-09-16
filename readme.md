@@ -1,7 +1,6 @@
 # ADA-2023-Portfolio
 
-![Empezando](img/images.png)
-<sub>Empezando<sub>
+
 ## Portfolio 2023
  Portafolio con trabajos propios, que se ira actualizando durante el curso, con diferentes proyectos, con diferentes codigos.
 
@@ -19,7 +18,7 @@ Este Proyecto consta _(actualmente)_ de una landing page, en una sola rama, es t
 - [X] HTML5
 - [X] CSS3
 
-![Dias sin dormir](img/Mafalda_mordo.webp)
+![Dias sin dormir](img/img-portfolio.png)
 
 <sub>Dias sin dormir<sub>
 
