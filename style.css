@@ -151,7 +151,6 @@ a:hover {
         color: #dde6ed;
         line-height: 1.3;
         font-size: 16px;
-        
     }
 
     .presentacion__texto {
@@ -160,7 +159,6 @@ a:hover {
         line-height: 1.5;
         z-index: -2;
         margin: 0 8px;
-      
     }
     h3 {
         font-size: 22px;
@@ -171,11 +169,11 @@ a:hover {
     /*certificaciones*/
     .certificaciones {
         width: 100%;
-        height: 80vw;
+        height: 90vw;
         text-align: center;
         color: #dde6ed;
         flex-wrap: wrap;
-        margin-top: 5%;
+        margin-top: 20px;
         margin-bottom: 500px;
     }
     /*contenedor diplomas*/
@@ -383,59 +381,58 @@ a:hover {
     .presentacion__texto {
         font-size: 20px;
     }
-   
-    .certificaciones__contenedor--logo{
+
+    .certificaciones__contenedor--logo {
         width: 65%;
         height: 65%;
-      
     }
-    
+
     #bola-de-hilo,
     #gato,
     .pulso img {
         border: none;
     }
-    .nav__menu{
+    .nav__menu {
         background-color: transparent;
     }
-    .proyectos__contenedor--logo{
+    .proyectos__contenedor--logo {
         width: 70%;
         height: 64%;
     }
-    #yo{
+    #yo {
         width: 35%;
     }
 }
-@media screen and (width >= 1024px){
-    .proyectos__contenedor--logo{
+@media screen and (width >= 1024px) {
+    .proyectos__contenedor--logo {
         margin-top: 50px;
     }
-    h3{
+    h3 {
         margin-top: 20px;
     }
-    
-    .presentacion__texto{
+
+    .presentacion__texto {
         font-size: 22px;
         width: 98%;
         height: 95%;
     }
-    h3{
+    h3 {
         font-size: 25px;
     }
-    #bola-de-hilo{
+    #bola-de-hilo {
         width: 5%;
     }
-    .presentacion__juguete{
+    .presentacion__juguete {
         height: 20%;
     }
-    #gato{
+    #gato {
         width: 8%;
         height: auto;
     }
-    .presentacion__gato{
+    .presentacion__gato {
         height: 45%;
     }
-    .certificaciones__contenedor{
-        background-color: violet;
+    .certificaciones__contenedor {
+        margin-top: 20px;
     }
 }
